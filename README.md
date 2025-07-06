@@ -80,8 +80,6 @@ Run as administrator/root for better results (especially for monitor mode).
 
 Save results before exiting if needed. Most scans export .txt reports.
 
-Want GUI instead of TUI? Check out the GUI version (optional link to GUI file).
-
 🛡️ License & Legal
 This project is for legal and ethical hacking. You are responsible for how you use this tool. Don't be a skiddie.
 
