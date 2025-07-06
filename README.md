@@ -79,7 +79,28 @@ cd ~/HexStrike
 Run as administrator/root for better results (especially for monitor mode).
 
 Save results before exiting if needed. Most scans export .txt reports.
+to added to path :
+1.Log in to PowerShell as Admin
 
+Run:
+
+com.powershell
+Copy
+Edit
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+Then:
+
+com.powershell
+Copy
+Edit
+IRM https://raw.githubusercontent.com/fr9rx/hexstrike/main/install.ps1 | AIX
+That's it! You can type:
+
+com.powershell
+Copy
+Edit
+com.hexstrike
+and run it from anywhere.
 🛡️ License & Legal
 This project is for legal and ethical hacking. You are responsible for how you use this tool. Don't be a skiddie.
 
