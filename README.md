@@ -20,7 +20,7 @@ nslookup – DNS Query Tool
 
 dig – DNS Investigation Tool
 
-whatweb – Web Tech Fingerprinting (coming soon)
+whatweb – Web Tech Fingerprinting
 
 ⚙️ Requirements
 Make sure these tools are installed and added to PATH:
