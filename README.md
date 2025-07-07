@@ -36,70 +36,56 @@ Python 3
 
 Install theHarvester:
 
-powershell
-Copy
-Edit
-git clone https://github.com/laramies/theHarvester
-cd theHarvester
-python -m pip install -r requirements.txt
+(git clone https://github.com/laramies/theHarvester)
+
+(cd theHarvester)
+
+(python -m pip install -r requirements.txt)
+
 🐧 Kali Linux:
 Already comes with most tools. Just make sure they are accessible in $PATH.
 
 Check installation with:
 
-bash
-Copy
-Edit
-which nmap
+(which nmap
 which airmon-ng
 which theHarvester
 which dig
-which nslookup
+which nslookup)
+
 🚀 Run HexStrike
 On Windows PowerShell:
-powershell
-Copy
-Edit
-cd path\to\HexStrike
-.\hexstrike.ps1
+
+
+(cd path\to\HexStrike
+.\hexstrike.ps1)
+
 If execution is blocked:
 
-powershell
-Copy
-Edit
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+(set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser)
+
 On Kali Linux PowerShell:
-bash
-Copy
-Edit
-pwsh
+
+(pwsh
 cd ~/HexStrike
-./hexstrike.ps1
+./hexstrike.ps1)
 💡 Tips
 Run as administrator/root for better results (especially for monitor mode).
 
 Save results before exiting if needed. Most scans export .txt reports.
 to added to path :
-1.Log in to PowerShell as Admin
+Log in to PowerShell as Admin
 
 Run:
 
-com.powershell
-Copy
-Edit
-Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+(Set-ExecutionPolicy RemoteSigned -Scope CurrentUser)
 Then:
 
-com.powershell
-Copy
-Edit
 IRM https://raw.githubusercontent.com/fr9rx/hexstrike/main/install.ps1 | AIX
 That's it! You can type:
-
-com.powershell
-Copy
-Edit
-com.hexstrike
+(hexstrike)
 and run it from anywhere.
 🛡️ License & Legal
 This project is for legal and ethical hacking. You are responsible for how you use this tool. Don't be a skiddie.
